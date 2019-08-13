@@ -11,4 +11,5 @@
     <color name="botonLogin">#c4ba9e</color>
     <color name="fondo">#f5f5db</color>
     <color name="textoBoton">#716858</color>
+    <color name="blanco">#fff</color>
 </resources>
