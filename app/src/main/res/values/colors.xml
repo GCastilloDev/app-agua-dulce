@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a21b41</color>
+    <color name="colorPrimaryDark">#570d1c</color>
+    <color name="colorAccent">#a21b41</color>
+
+    <!-- COLORES DE BACKGROUND -->
+    <color name="gradienteInicio">#a21b41</color>
+    <color name="gradienteFinal">#8b142d</color>
+    <color name="gradienteFinalDos">#570d1c</color>
+    <color name="botonLogin">#c4ba9e</color>
+    <color name="fondo">#f5f5db</color>
+    <color name="textoBoton">#716858</color>
+</resources>
