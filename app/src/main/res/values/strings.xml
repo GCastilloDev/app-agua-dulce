@@ -3,4 +3,5 @@
     <string name="btn_txt_ingresar">Ingresar</string>
     <string name="et_text_usuario">Ingresa tu usuario</string>
     <string name="et_text_psw">Ingresa tu contraseña</string>
+    <string name="cbx_txt_recuerda">Recordar usuario</string>
 </resources>

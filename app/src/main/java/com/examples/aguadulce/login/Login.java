@@ -6,12 +6,15 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.view.View;
 import android.widget.Toast;
 
 import com.examples.aguadulce.R;
+import com.examples.aguadulce.menu.Menu;
 
 public class Login extends AppCompatActivity {
 
@@ -24,6 +27,12 @@ public class Login extends AppCompatActivity {
 
         solicitarPermisos();
 
+    }
+
+    public void ingresar(View v){
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
+        finish();
     }
 
     /*

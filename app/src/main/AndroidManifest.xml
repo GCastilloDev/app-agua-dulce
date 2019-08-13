@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login.Login"></activity>
+        <activity android:name=".menu.Menu"></activity>
+        <activity android:name=".login.Login" />
         <activity android:name=".splash.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
