@@ -1,0 +1,11 @@
+[33mcommit a4b7b522e241264054a6abd5c90d8a353374f0d6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: tavoGeek <tavogeek@github.com>
+Date:   Tue Aug 13 14:42:52 2019 -0500
+
+    se agrego el archivo git
+
+[33mcommit 1ee4d73c84ee6515c69b2eb2888abb847235a5f8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmodificaciones[m[33m)[m
+Author: tavoGeek <tavogeek@github.com>
+Date:   Tue Aug 13 14:19:03 2019 -0500
+
+    primer commit con splash y login ya realizados
