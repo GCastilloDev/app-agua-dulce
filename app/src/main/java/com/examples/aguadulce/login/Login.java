@@ -10,7 +10,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.text.InputType;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.examples.aguadulce.R;
@@ -19,6 +22,9 @@ import com.examples.aguadulce.menu.Menu;
 public class Login extends AppCompatActivity {
 
     private String phoneNumber;
+    private EditText etPsw;
+    private boolean visible = false;
+    private ImageView ivMostrarOcultar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +32,21 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         solicitarPermisos();
+
+    }
+
+    public void mostrarOcultar(View v){
+        if(!visible){
+            etPsw.setInputType(InputType.TYPE_CLASS_TEXT);
+            ivMostrarOcultar.setImageResource(R.drawable.ic_visibility_off_black_24dp);
+            visible = true;
+        }
+
+        if(!visible){
+            etPsw.setInputType(InputType.TYPE_TEXT_VARIATION_PASSWORD);
+            ivMostrarOcultar.setImageResource(R.drawable.ic_visibility_black_24dp);
+            visible = false;
+        }
 
     }
 

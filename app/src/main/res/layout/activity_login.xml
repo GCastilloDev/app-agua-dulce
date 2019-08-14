@@ -50,8 +50,8 @@
             android:gravity="center"
             android:hint="@string/et_text_psw"
             android:inputType="textPassword"
+            android:maxLines="1"
             android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
-
             />
 
         <CheckBox
@@ -67,7 +67,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/login_btn"
-            android:textColor="@color/textoBoton"
+            android:textColor="@color/blanco"
             android:onClick="ingresar"
             android:text="@string/btn_txt_ingresar" />
 
