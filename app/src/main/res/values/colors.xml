@@ -12,4 +12,15 @@
     <color name="fondo">#f5f5db</color>
     <color name="textoBoton">#716858</color>
     <color name="blanco">#fff</color>
+    <color name="rojo_uno">#621132</color>
+
+    <!-- COLORES PRESIDENCIA REPUBLICA MEXICANA -->
+    <color name="pantone7421">#621132</color>
+    <color name="pantone7420">#9D2449</color>
+    <color name="pantone627">#13322B</color>
+    <color name="pantone626">#285C4D</color>
+    <color name="pantone504">#4E232E</color>
+    <color name="pantone490">#56242A</color>
+    <color name="pantone465">#B38E5D</color>
+    <color name="pantone468">#d4c19c</color>
 </resources>

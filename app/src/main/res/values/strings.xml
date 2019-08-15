@@ -5,4 +5,11 @@
     <string name="et_text_psw">Ingresa tu contraseña</string>
     <string name="cbx_txt_recuerda">Recordar usuario</string>
     <string name="tv_txt_bienvenido">Bienevenido</string>
+    <string name="txt_clave_aleatoria">Generar\nClave aleatoria</string>
+    <string name="txt_generar">Generar</string>
+    <string name="txt_consultar_grafica">Consultar\nGráficas</string>
+    <string name="txt_ver_galeria">Ver\nGalería fotográfica</string>
+    <string name="txt_consultar_info">Consultar\nInformación catastral</string>
+    <string name="txt_agregar_ubicacion">Agregar\nUbicación</string>
+    <string name="txt_consultar_ubicaciones">Consultar\nUbicaciones</string>
 </resources>
