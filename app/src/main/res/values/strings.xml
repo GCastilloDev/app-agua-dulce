@@ -12,4 +12,9 @@
     <string name="txt_consultar_info">Consultar\nInformación catastral</string>
     <string name="txt_agregar_ubicacion">Agregar\nUbicación</string>
     <string name="txt_consultar_ubicaciones">Consultar\nUbicaciones</string>
+    <string name="generador_clave_txt">Generador de clave aleatoria</string>
+    <string name="clave_activa_txt">Clave activa:</string>
+    <string name="btn_generarclave_txt">Generar clave</string>
+    <string name="btn_compartir_txt">Compartir</string>
+    <string name="btn_regresar_txt">Regresar</string>
 </resources>

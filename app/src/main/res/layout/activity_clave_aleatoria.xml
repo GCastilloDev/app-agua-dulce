@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".clave_aleatoria.ClaveAleatorioVista">
+
+    <!-- PARTE SUPERIOR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradiente_perfil"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/agua_dulce_vertical"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/blanco"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="@string/generador_clave_txt"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- CONTENIDO -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_marginTop="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textSize="15sp"
+            android:text="@string/clave_activa_txt"/>
+
+        <TextView
+            android:id="@+id/tvClaveActiva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/pantone7421"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn"
+            android:text="@string/btn_generarclave_txt"
+            android:textColor="@color/blanco"
+            android:onClick="generarClave"/>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn"
+                android:drawableRight="@drawable/compartir"
+                android:text="@string/btn_compartir_txt"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/blanco"
+                android:textAlignment="textEnd"
+                android:paddingRight="35dp"
+                android:onClick="compartirClave"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn"
+                android:drawableRight="@drawable/regresar"
+                android:text="@string/btn_regresar_txt"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/blanco"
+                android:textAlignment="textEnd"
+                android:paddingRight="35dp"
+                android:onClick="regresar"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

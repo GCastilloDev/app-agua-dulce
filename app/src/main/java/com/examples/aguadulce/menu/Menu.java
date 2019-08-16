@@ -2,14 +2,19 @@ package com.examples.aguadulce.menu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.examples.aguadulce.R;
+import com.examples.aguadulce.clave_aleatoria.ClaveAleatorioVista;
 
 public class Menu extends AppCompatActivity {
 
     private TextView tvBienvenido;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +25,9 @@ public class Menu extends AppCompatActivity {
 
         String mensajeBienvenida = tvBienvenido.getText().toString() + "\nGustavo Castillo Nájera";
         tvBienvenido.setText(mensajeBienvenida);
+    }
+
+    public void irGenerarClave(View v){
+        startActivity(new Intent(this, ClaveAleatorioVista.class));
     }
 }
