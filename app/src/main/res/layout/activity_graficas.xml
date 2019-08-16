@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".graficas.Graficas">
+
+    <!-- PARTE SUPERIOR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradiente_perfil"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/agua_dulce_vertical"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/blanco"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="@string/graficas_txt"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/regresar"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingRight="100dp"
+        android:paddingLeft="100dp"
+        android:textColor="@color/blanco"
+        android:background="@drawable/login_btn"
+        android:text="@string/btn_regresar_txt"
+        android:onClick="irMenu"/>
+
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+
+             <androidx.cardview.widget.CardView
+                 android:layout_margin="8dp"
+                 app:cardBackgroundColor="@color/fondo_cardview_graficas"
+                 android:layout_width="match_parent"
+                 android:layout_height="400dp">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Gráfica de pastel"
+                     android:gravity="center"
+                     android:layout_marginTop="10dp"
+                     android:textSize="15sp"/>
+
+                 <com.github.mikephil.charting.charts.PieChart
+                     android:id="@+id/graficaPastel"
+                     android:layout_marginBottom="10dp"
+                     android:layout_marginTop="30dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+
+                 </com.github.mikephil.charting.charts.PieChart>
+             </androidx.cardview.widget.CardView>
+
+
+             <androidx.cardview.widget.CardView
+                 android:layout_margin="8dp"
+                 app:cardBackgroundColor="@color/fondo_cardview_graficas"
+                 android:layout_width="match_parent"
+                 android:layout_height="400dp">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Gráfica de barras"
+                     android:gravity="center"
+                     android:layout_marginTop="10dp"
+                     android:textSize="15sp"/>
+
+                 <com.github.mikephil.charting.charts.BarChart
+                     android:id="@+id/graficaBarra"
+                     android:layout_marginBottom="10dp"
+                     android:layout_marginTop="30dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+
+                 </com.github.mikephil.charting.charts.BarChart>
+             </androidx.cardview.widget.CardView>
+
+         </LinearLayout>
+
+     </ScrollView>
+
+
+
+
+
+</LinearLayout>

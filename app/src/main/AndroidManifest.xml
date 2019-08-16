@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".clave_aleatoria.ClaveAleatorioVista"></activity>
+        <activity android:name=".graficas.Graficas"></activity>
+        <activity android:name=".clave_aleatoria.ClaveAleatorioVista" />
         <activity android:name=".menu.Menu" />
         <activity android:name=".login.Login" />
         <activity android:name=".splash.Splash">

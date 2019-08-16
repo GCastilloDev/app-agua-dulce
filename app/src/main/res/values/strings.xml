@@ -17,4 +17,5 @@
     <string name="btn_generarclave_txt">Generar clave</string>
     <string name="btn_compartir_txt">Compartir</string>
     <string name="btn_regresar_txt">Regresar</string>
+    <string name="graficas_txt">Gráficas - Reportes</string>
 </resources>

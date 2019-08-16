@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.examples.aguadulce.R;
 import com.examples.aguadulce.clave_aleatoria.ClaveAleatorioVista;
+import com.examples.aguadulce.graficas.Graficas;
 
 public class Menu extends AppCompatActivity {
 
@@ -30,4 +31,9 @@ public class Menu extends AppCompatActivity {
     public void irGenerarClave(View v){
         startActivity(new Intent(this, ClaveAleatorioVista.class));
     }
+
+    public void irGraficas(View v){
+        startActivity(new Intent(this, Graficas.class));
+    }
+
 }
