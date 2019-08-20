@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.examples.aguadulce.R;
 import com.examples.aguadulce.clave_aleatoria.ClaveAleatorioVista;
+import com.examples.aguadulce.galeria_fotos.GaleriaFotografica;
 import com.examples.aguadulce.graficas.Graficas;
 
 public class Menu extends AppCompatActivity {
@@ -34,6 +35,10 @@ public class Menu extends AppCompatActivity {
 
     public void irGraficas(View v){
         startActivity(new Intent(this, Graficas.class));
+    }
+
+    public void irFotos(View v){
+        startActivity(new Intent(this, GaleriaFotografica.class));
     }
 
 }

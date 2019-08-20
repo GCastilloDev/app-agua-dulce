@@ -18,4 +18,6 @@
     <string name="btn_compartir_txt">Compartir</string>
     <string name="btn_regresar_txt">Regresar</string>
     <string name="graficas_txt">Gráficas - Reportes</string>
+    <string name="fotos_txt">Fotografías terrenos</string>
+    <string name="fotos_descripcion_txt">Fotografía detalle</string>
 </resources>
