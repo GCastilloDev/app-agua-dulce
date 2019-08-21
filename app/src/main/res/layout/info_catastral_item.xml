@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+   <LinearLayout
+       android:layout_marginTop="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/tvNombre"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Contribuyente: "/>
+
+       <TextView
+           android:id="@+id/tvCuenta"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Numero de cuenta:"/>
+
+       <TextView
+           android:id="@+id/tvDomicilio"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Domicilio:"/>
+
+       <TextView
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/pantone7421"/>
+
+
+   </LinearLayout>
+
+
+
+
+</RelativeLayout>

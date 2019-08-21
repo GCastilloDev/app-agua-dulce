@@ -12,6 +12,7 @@ import com.examples.aguadulce.R;
 import com.examples.aguadulce.clave_aleatoria.ClaveAleatorioVista;
 import com.examples.aguadulce.galeria_fotos.GaleriaFotografica;
 import com.examples.aguadulce.graficas.Graficas;
+import com.examples.aguadulce.informacion_catastral.InfoCatastral;
 
 public class Menu extends AppCompatActivity {
 
@@ -40,5 +41,7 @@ public class Menu extends AppCompatActivity {
     public void irFotos(View v){
         startActivity(new Intent(this, GaleriaFotografica.class));
     }
+
+    public void irInfoCatastral(View v){ startActivity(new Intent(this, InfoCatastral.class));}
 
 }
