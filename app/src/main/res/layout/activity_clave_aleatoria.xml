@@ -71,13 +71,7 @@
             android:textSize="18sp"
             android:layout_marginBottom="15dp"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/login_btn"
-            android:text="@string/btn_generarclave_txt"
-            android:textColor="@color/blanco"
-            android:onClick="generarClave"/>
+
 
         <LinearLayout
             android:weightSum="2"
@@ -91,26 +85,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/login_btn"
-                android:drawableRight="@drawable/compartir"
-                android:text="@string/btn_compartir_txt"
-                android:layout_marginRight="5dp"
+                android:text="@string/btn_generarclave_txt"
                 android:textColor="@color/blanco"
-                android:textAlignment="textEnd"
-                android:paddingRight="35dp"
-                android:onClick="compartirClave"/>
+                android:layout_marginRight="5dp"
+                android:onClick="generarClave"/>
 
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/login_btn"
-                android:drawableRight="@drawable/regresar"
-                android:text="@string/btn_regresar_txt"
-                android:layout_marginLeft="5dp"
+                android:drawableRight="@drawable/compartir"
+                android:text="@string/btn_compartir_txt"
                 android:textColor="@color/blanco"
                 android:textAlignment="textEnd"
                 android:paddingRight="35dp"
-                android:onClick="regresar"/>
+                android:onClick="compartirClave"/>
+
 
         </LinearLayout>
 

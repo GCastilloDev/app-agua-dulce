@@ -20,4 +20,5 @@
     <string name="graficas_txt">Gráficas - Reportes</string>
     <string name="fotos_txt">Fotografías terrenos</string>
     <string name="fotos_descripcion_txt">Fotografía detalle</string>
+    <string name="informacion_catastral_txt">Información catastral</string>
 </resources>

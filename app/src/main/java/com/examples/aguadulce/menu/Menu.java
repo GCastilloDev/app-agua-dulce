@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.examples.aguadulce.R;
 import com.examples.aguadulce.clave_aleatoria.ClaveAleatorioVista;
@@ -43,5 +44,13 @@ public class Menu extends AppCompatActivity {
     }
 
     public void irInfoCatastral(View v){ startActivity(new Intent(this, InfoCatastral.class));}
+
+    public void irAgregarUbicacion(View v){
+        Toast.makeText(this,"Agregar ubicación en construcción...",Toast.LENGTH_LONG).show();
+    }
+
+    public void irConsultarUbicacion(View v){
+        Toast.makeText(this,"Consultar ubicación en construcción...",Toast.LENGTH_LONG).show();
+    }
 
 }

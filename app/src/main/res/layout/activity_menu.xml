@@ -258,6 +258,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:layout_marginRight="5dp"
+                        android:onClick="irAgregarUbicacion"
                         android:background="@drawable/fondo_uno">
 
                         <ImageView
@@ -292,6 +293,7 @@
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
+                        android:onClick="irConsultarUbicacion"
                         android:background="@drawable/fondo_uno">
 
                         <ImageView

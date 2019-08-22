@@ -40,11 +40,6 @@ public class Graficas extends AppCompatActivity {
         crearGraficaBarras();
     }
 
-    public void irMenu(View v){
-        startActivity(new Intent(this, Menu.class));
-        finish();
-    }
-
     private void crearGraficaPastel() {
 
         Description description = new Description();

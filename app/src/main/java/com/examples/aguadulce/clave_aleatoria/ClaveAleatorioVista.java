@@ -72,12 +72,4 @@ public class ClaveAleatorioVista extends AppCompatActivity {
         startActivity(Intent.createChooser(compartir,"Compartir vía"));
     }
 
-    /**
-     * Método para el boton regresar al menu
-     * @param v
-     */
-    public void regresar(View v){
-        startActivity(new Intent(this, Menu.class));
-        finish();
-    }
 }
